@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>15</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
@@ -48,15 +48,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				
 			</plugin>
-			<plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-compiler-plugin</artifactId>
-	<version>3.8.0</version>
-	    <configuration>
-        <release>15</release>
-    </configuration>
-
-     </plugin>
 
 		</plugins>
 	</build>
